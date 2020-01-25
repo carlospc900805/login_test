@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/material-icons/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="//db.onlinewebfonts.com/c/0a99972bcbc1923709ca88c3b2e8526e?family=Gotham+Pro+Medium" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<main class="container">
+    <div class="signin">
+        <div class="logo-container">
+            <img class="logo"  src="assets/img/logo.svg" width="30" alt="logo">
+            <span>Diprella</span>
+        </div>
+
+        <div class="signin-content">
+            <h1 class="welcome-title">Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="btn btn-signin">Sign In</button>
+        </div>
+    </div>
+    <div class="signup">
+        <div class="signup-wrapper">
+            <h1 class="create-title">Create Account</h1>
+            <div class="social-buttons">
+                <button class="btn-social">
+                    <i class="fa fa-facebook"></i>
+                </button>
+                <button class="btn-social">
+                    <i class="fa fa-google-plus"></i>
+                </button>
+                <button class="btn-social">
+                    <i class="fa fa-linkedin"></i>
+                </button>
+            </div>
+            <p>or use your email for registration:</p>
+            <form class="signup-form">
+                <div class="input-group">
+                    <i class="mdi mdi-account-outline"></i>
+                    <input class="form-control" type="text" placeholder="Name">
+                </div>
+                <div class="input-group">
+                    <i class="mdi mdi-email-outline"></i>
+                    <input class="form-control" type="email" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <i class="mdi mdi-lock-outline"></i>
+                    <input class="form-control" type="password" placeholder="Password">
+                </div>
+                <button class="btn btn-signup">SIGN UP</button>
+
+            </form>
+        </div>
+    </div>
+</main>
 
 </body>
 </html>
